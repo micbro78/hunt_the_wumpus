@@ -1,5 +1,5 @@
 from cave import Cave
 
 cavern = Cave("Cavern")
-
-print(cavern)
+grotto = Cave("Grotto")
+dungeon = Cave("Dungeon")
