@@ -2,3 +2,7 @@
 Learned about the project and played a recreation of the original Hunt the Wumpus game. We also played a modern and varied version of the game that is arranged in a grid.
 Set up the GitHub repository and code space for the project.
 Started a cave.py (holds the Cave class) and main.py (to run the program) file.
+
+2/8/2024
+Defined 3 caves and continued to develop attributes and methods for the cave class.
+Created setter and getter methods for each attribute.
