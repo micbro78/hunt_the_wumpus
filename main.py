@@ -13,7 +13,10 @@ dungeon.link_cave("north", cavern)
 dungeon.link_cave("west", grotto)
 grotto.link_cave("east", dungeon)
 
-dungeon.get_details()
-cavern.get_details()
-grotto.get_details()
-                       
+current_cave = cavern
+while True:
+    print("\n")
+    current_cave.get_details()
+    command = input("> ")
+    current_cave = current_cave.move(command)
+    

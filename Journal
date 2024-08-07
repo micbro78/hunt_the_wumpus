@@ -6,3 +6,8 @@ Started a cave.py (holds the Cave class) and main.py (to run the program) file.
 2/8/2024
 Defined 3 caves and continued to develop attributes and methods for the cave class.
 Created setter and getter methods for each attribute.
+
+5/8/2024
+Set up a method of connecting caves using a dictionary associated with each cave object.
+Set up link_cave attributes for each cave object and tested.
+Don't be a dum-dum. Keep your journal up-to-date and write in your own words please.
