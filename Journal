@@ -11,3 +11,12 @@ Created setter and getter methods for each attribute.
 Set up a method of connecting caves using a dictionary associated with each cave object.
 Set up link_cave attributes for each cave object and tested.
 Don't be a dum-dum. Keep your journal up-to-date and write in your own words please.
+
+7/8/2024
+Created a method for moving between cave objects.
+Created a new character class and instantiated the Wumpus object. Tested 3 of the character attributes.
+
+9/8/2024
+Created a new subclass to Character called Enemy and started working on fighting in the game. Added code to character_test to see if the fight method works.
+Next session I will integrate the code from character_test into main.
+Remember the journal is your own self-reflectionin your own words. YOu can also add ideas, thoughts, frustrations, plans for the future, etc.
