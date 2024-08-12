@@ -37,7 +37,7 @@ class Enemy(Character):
 
     def get_weakness(self):
         return self.weakness
-    
+
     def fight(self, combat_item):
         if combat_item == self.weakness:
             print("You fend " + self.name + " off with the " + combat_item)

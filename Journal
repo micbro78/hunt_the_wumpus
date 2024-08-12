@@ -20,3 +20,7 @@ Created a new character class and instantiated the Wumpus object. Tested 3 of th
 Created a new subclass to Character called Enemy and started working on fighting in the game. Added code to character_test to see if the fight method works.
 Next session I will integrate the code from character_test into main.
 Remember the journal is your own self-reflectionin your own words. YOu can also add ideas, thoughts, frustrations, plans for the future, etc.
+
+12/8/2024
+Finished working on the character_test file and started integrated code into main.py. 
+Added a way to associate a character with a cave (i.e. put Harry into the dungeon). Next session I will add the ability to interact with characters (such as talking, fighting, selecting weapons, etc.).
