@@ -2,6 +2,7 @@
 class Character():
     """Defines the Character class"""
     def __init__(self, char_name, char_description):
+        """Defines the Character class attributes"""
         self.name = char_name
         self.description = char_description
         self.conversation = None
@@ -28,14 +29,17 @@ class Character():
         return True
 
 class Enemy(Character):
+    """Defines the Enemy subclass of the Character class"""
     def __init__(self, char_name, char_description):
         super().__init__(char_name, char_description)
         self.weakness = None
 
     def set_weakness(self, item_weakness):
+        """Sets the weakness item of an Enemy Character object"""
         self.weakness = item_weakness
 
     def get_weakness(self):
+        """Returns the weakness of an Enemy Character object"""
         return self.weakness
 
     def fight(self, combat_item):
